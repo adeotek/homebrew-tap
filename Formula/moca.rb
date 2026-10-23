@@ -3,8 +3,12 @@
 class Moca < Formula
   desc "Coding agent in one static Go binary"
   homepage "https://github.com/adeotek/moca"
-  version "0.7.8"
   license "MIT"
+
+  livecheck do
+    url :stable
+    strategy :github_latest
+  end
 
   on_macos do
     on_arm do
@@ -28,11 +32,6 @@ class Moca < Formula
       url "https://github.com/adeotek/moca/releases/download/v0.7.8/moca-v0.7.8-linux-amd64.tar.gz"
       sha256 "36334f69b455d52e7f5874b9470daad9810273cf942ae1dd89f16594c0e0392f"
     end
-  end
-
-  livecheck do
-    url :stable
-    strategy :github_latest
   end
 
   def install
