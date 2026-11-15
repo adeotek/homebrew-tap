@@ -12,25 +12,25 @@ class Moca < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/adeotek/moca/releases/download/v0.8.0/moca-v0.8.0-darwin-arm64.tar.gz"
-      sha256 "fd5622fa8a89142c772d5e81ce6263e083e7cc10775f8fe3fc7db7869d6f7f03"
+      url "https://github.com/adeotek/moca/releases/download/v0.8.2/moca-v0.8.2-darwin-arm64.tar.gz"
+      sha256 "cc5e2bb983f265e95ee9f8e6c4831ffc30d47cbc2667bebda67cc5c5db8fb8d9"
     end
 
     on_intel do
-      url "https://github.com/adeotek/moca/releases/download/v0.8.0/moca-v0.8.0-darwin-amd64.tar.gz"
-      sha256 "79f2c243d745d922ab395589302772f0002d72ab1a33c8d96a9726fb49bb1acc"
+      url "https://github.com/adeotek/moca/releases/download/v0.8.2/moca-v0.8.2-darwin-amd64.tar.gz"
+      sha256 "d8d0b83ed4a98f9cea19de9e8fa7640fea5d05a04e4227679b84c3d850dc1c66"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/adeotek/moca/releases/download/v0.8.0/moca-v0.8.0-linux-arm64.tar.gz"
-      sha256 "13ed35f7fc78c0bc118f3a0e96f607bc9f154f42518c8e9b43131cfa96456e6d"
+      url "https://github.com/adeotek/moca/releases/download/v0.8.2/moca-v0.8.2-linux-arm64.tar.gz"
+      sha256 "4476aef2450ddf88a1b44ec8bc736778add4a0e029f3fee788043eb4daae6983"
     end
 
     on_intel do
-      url "https://github.com/adeotek/moca/releases/download/v0.8.0/moca-v0.8.0-linux-amd64.tar.gz"
-      sha256 "04517d5688c4f4478dd817f3a2d2d368192d9cc874a4d360a093cc186ab2a568"
+      url "https://github.com/adeotek/moca/releases/download/v0.8.2/moca-v0.8.2-linux-amd64.tar.gz"
+      sha256 "e0609222db518a6f893ce8cc5a80db9817d97ebe6ec7f927bcb7b15300444afc"
     end
   end
 
