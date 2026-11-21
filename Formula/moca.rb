@@ -12,25 +12,25 @@ class Moca < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/adeotek/moca/releases/download/v0.8.3/moca-v0.8.3-darwin-arm64.tar.gz"
-      sha256 "d3572c5fa45f75544b97bb6414dc36000b4530c965199f6b86febc087020a9cf"
+      url "https://github.com/adeotek/moca/releases/download/v0.8.4/moca-v0.8.4-darwin-arm64.tar.gz"
+      sha256 "1378e52e85cf35a7837ce6d26a42f942d147cadbbd6146dd474bb32e79d02dd7"
     end
 
     on_intel do
-      url "https://github.com/adeotek/moca/releases/download/v0.8.3/moca-v0.8.3-darwin-amd64.tar.gz"
-      sha256 "54bc9168a94c17233604224eb9212ae1427132cab6c28ca6e219c7ebd7738087"
+      url "https://github.com/adeotek/moca/releases/download/v0.8.4/moca-v0.8.4-darwin-amd64.tar.gz"
+      sha256 "373513eb2a688f8b10c71c59ae48a74f70c2c518069fc46673b1202121104439"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/adeotek/moca/releases/download/v0.8.3/moca-v0.8.3-linux-arm64.tar.gz"
-      sha256 "0baf97ad66b462fb8e6f0ca9c6336468176add599a18a3a3b1be8abababa61d0"
+      url "https://github.com/adeotek/moca/releases/download/v0.8.4/moca-v0.8.4-linux-arm64.tar.gz"
+      sha256 "0b3f3f01e6df661ba27ef3318239987a178dffba7087d522928a38b1b721df48"
     end
 
     on_intel do
-      url "https://github.com/adeotek/moca/releases/download/v0.8.3/moca-v0.8.3-linux-amd64.tar.gz"
-      sha256 "1c92fb8a4fac5f9a462ae991a65c0a0973bc1bb7e9b88cf01f19e6bd8b3f43d3"
+      url "https://github.com/adeotek/moca/releases/download/v0.8.4/moca-v0.8.4-linux-amd64.tar.gz"
+      sha256 "33c0455d9bf8600daf201957c853b11eaad0e21d92b1b283db92e1223d3604dc"
     end
   end
 
